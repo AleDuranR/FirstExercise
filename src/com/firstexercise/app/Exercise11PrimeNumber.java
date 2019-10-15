@@ -39,15 +39,13 @@ public class Exercise11PrimeNumber {
 		
 		while(count < numUser) {
 			index =2;
-			flag = false;
-			if(index < count && flag != true){
+			flag = true;
+			for(int k= 2; k<count;k++) {
 				if(count % index == 0) {
-					flag = true;
+					flag = false;
 				}
-				index ++;
 			}
-			
-			else if(flag == false) {
+			if(flag) {
 				System.out.print(count);	
 				count ++;		
 			}	
