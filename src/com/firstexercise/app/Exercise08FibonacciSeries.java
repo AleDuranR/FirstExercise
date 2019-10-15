@@ -15,10 +15,10 @@ public class Exercise08FibonacciSeries {
 		System.out.print("Input a number ");
 		limite = scan.nextInt();
 		int[] lista = new int[limite];
-		lista[1] = 0;
-		lista[2] = 1;
+		lista[0] = 1;
+		lista[1] = 1;
 		for(int index = 0;index<limite;index++) {
-			if(index >= 3) {
+			if(index >= 2) {
 				lista[index]=lista[index-1] + lista[index-2];
 			}
 			System.out.print(lista[index] + " ");
