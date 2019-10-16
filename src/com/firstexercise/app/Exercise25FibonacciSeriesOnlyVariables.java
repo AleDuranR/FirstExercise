@@ -2,7 +2,7 @@ package com.firstexercise.app;
 
 import java.util.Scanner;
 
-public class Excercise25FibonacciSeriesOnlyVariables {
+public class Exercise25FibonacciSeriesOnlyVariables {
 	public static void main(String[] args) {
 		// Constant
 		
@@ -28,5 +28,6 @@ public class Excercise25FibonacciSeriesOnlyVariables {
 			count1 = count2;
 			count2 = fibonacci;
 		}
+		scan.close();
 	}
 }
